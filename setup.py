@@ -32,6 +32,8 @@ setup(
         "pandas>=2.0.0",
         "soundfile>=0.12.0",
         "pyarrow>=12.0.0",
+        "zstandard",
+        "kaldiio"
     ],
     entry_points={
         "console_scripts": [
